@@ -15,8 +15,8 @@ let instructionEl: HTMLElement | null = null;
 
 let cards: Card[] = [];
 let particles: Particle[] = [];
-export const cardPool: Card[] = [];
-export const particlePool: Particle[] = [];
+const cardPool: Card[] = [];
+const particlePool: Particle[] = [];
 let autoDecks: AutoDeck[] = [];
 let currentAutoColOffset = 0;
 

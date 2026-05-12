@@ -1,7 +1,0 @@
---- src/game.ts
-+++ src/game.ts
-@@ -19,2 +19,2 @@
--const cardPool: Card[] = [];
--const particlePool: Particle[] = [];
-+export const cardPool: Card[] = [];
-+export const particlePool: Particle[] = [];
