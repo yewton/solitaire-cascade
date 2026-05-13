@@ -21,8 +21,8 @@ export class Particle {
     this.active = true; this.life = 1.0; this.color = color;
     this.size  = Math.max(3, (Math.random() * 8  + 4) * scale);
     this.decay = 0.005 + Math.random() * 0.01;
-    this.vx = (Math.random() - 0.5) * 6;
-    this.vy = (Math.random() - 0.5) * 6;
+    this.vx = (Math.random() - 0.5) * 4;
+    this.vy = (Math.random() - 0.5) * 4;
     this.vz = isDepth ? (Math.random() - 0.5) * 10 : 0;
     this.rotation = Math.random() * 6.28;
 

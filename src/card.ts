@@ -101,7 +101,7 @@ export class Card {
       }
     }
 
-    if (this.options.particles && particleCount < maxParticles && Math.random() < timeScale) {
+    if (this.options.particles && particleCount < maxParticles && Math.random() < (0.3 * timeScale)) {
       onSpawnParticle(
         this.x + 35.5 * scale, this.y + 48 * scale, this.z,
         `hsl(${this.hue},100%,70%)`, this.options.neon, this.options.depth,
